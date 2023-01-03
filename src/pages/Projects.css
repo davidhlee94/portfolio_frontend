@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+@media only screen and (max-width: 768px) {
+  .projects-all {
+    padding: 5vw;
+  }
+
+  .projects {
+    color: rgb(181, 239, 255);
+    margin: 0;
+  }
+
+  .project-all-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #50577a;
+    border-radius: 1em;
+    height: 27vh;
+    width: 90vw;
+    margin-top: 1em;
+    padding: 1vw;
+  }
+
+  .project-info {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    flex-direction: column;
+    height: 18vh;
+  }
+
+  .project-image {
+    border-radius: 5%;
+    height: 18vh;
+    width: auto;
+  }
+
+  .project-name {
+    display: flex;
+    align-items: center;
+    color: rgb(181, 239, 255);
+    font-size: 3.7vw;
+    margin: 0;
+    width: 90%;
+  }
+
+  .project-about {
+    color: white;
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    font-size: 2.9vw;
+    display: flex;
+
+    align-items: center;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .button {
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: none;
+    font-size: 3vw;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .projects-all {
+    padding: 0 25vw 0 25vw;
+  }
+
+  .projects {
+    color: rgb(181, 239, 255);
+    margin: 0;
+    font-size: 2em;
+    padding-top: 1em;
+  }
+
+  .project-all-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #50577a;
+    border-radius: 1em;
+    height: 18em;
+    width: 35em;
+    margin-top: 1em;
+    padding: 1vw;
+  }
+
+  .project-info {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    flex-direction: column;
+    height: 18vh;
+  }
+
+  .project-image {
+    border-radius: 5%;
+    height: auto;
+    width: 200px;
+  }
+
+  .project-name {
+    display: flex;
+    align-items: center;
+    color: rgb(181, 239, 255);
+    font-size: 1.3em;
+    margin: 0;
+    width: 90%;
+  }
+
+  .project-about {
+    color: white;
+    margin: 0;
+    width: 90%;
+    height: 100%;
+    font-size: 0.9em;
+    display: flex;
+
+    align-items: center;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .button {
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: none;
+    font-size: 1em;
+    margin-right: 1em;
+  }
+}

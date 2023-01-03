@@ -1,0 +1,37 @@
+@media only screen and (max-width: 768px) {
+  .photo-image {
+    width: 95vw;
+    height: auto;
+  }
+
+  .photo-border {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: white;
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+    .photo-image {
+        width: 70vw;
+        height: auto;
+      }
+    
+      .photo-border {
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        background-color: white;
+        width: 73vw;
+        margin: 1em;
+      }
+    
+      .image-blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+}

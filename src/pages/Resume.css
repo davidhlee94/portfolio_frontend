@@ -1,0 +1,72 @@
+@media only screen and (max-width: 768px) {
+  .resume-container {
+    padding: 5vw;
+  }
+
+  .resume {
+    font-size: 2em;
+    color: rgb(181, 239, 255);
+  }
+
+  .resume-instruction {
+    font-size: 1em;
+    color: white;
+  }
+
+  .megaman {
+    height: 4vh;
+    width: auto;
+    padding-right: 0.5em;
+  }
+
+  .download-row {
+    display: flex;
+    align-items: center;
+    height: 2em;
+  }
+
+  .download-button {
+    border-radius: 5px;
+    background: rgb(181, 239, 255);
+    border: 1px;
+    box-shadow: none;
+    height: 2em;
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .resume-container {
+    padding: 0 25vw 0 25vw;
+  }
+
+  .resume {
+    font-size: 2em;
+    color: rgb(181, 239, 255);
+    padding-top: 1em;
+  }
+
+  .resume-instruction {
+    font-size: 1em;
+    color: white;
+  }
+
+  .megaman {
+    height: 4vh;
+    width: auto;
+    padding-right: 0.5em;
+  }
+
+  .download-row {
+    display: flex;
+    align-items: center;
+    height: 2em;
+  }
+
+  .download-button {
+    border-radius: 5px;
+    background: rgb(181, 239, 255);
+    border: 1px;
+    box-shadow: none;
+    height: 2em;
+  }
+}

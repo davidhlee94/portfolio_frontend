@@ -1,0 +1,182 @@
+@media only screen and (max-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-pic {
+    height: auto;
+    width: 60vw;
+  }
+
+  .pic-container {
+    grid-row: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .about-section {
+    padding: 5vw;
+  }
+
+  .about-bio {
+    font-size: 1em;
+    color: white;
+  }
+
+  .about-about {
+    font-size: 2em;
+    color: rgb(181, 239, 255);
+  }
+
+  .experience-section {
+    padding: 5vw;
+  }
+
+  .experience {
+    font-size: 2em;
+    color: rgb(181, 239, 255);
+  }
+
+  .job-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+  }
+
+  .job-company {
+    font-size: 1.3em;
+    margin: 0;
+    padding-left: 0.5em;
+  }
+
+  .job-title {
+    font-size: 1em;
+  }
+
+  .job-date {
+    font-size: 0.9em;
+    color: rgb(194, 194, 194);
+  }
+
+  .job-description {
+    font-size: 0.9em;
+    color: rgb(210, 227, 234);
+  }
+
+  .company-and-icon {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+  }
+
+  .company-icon {
+    width: 10vw;
+    height: auto;
+  }
+}
+
+
+@media only screen and (min-width: 769px){
+    .about-container {
+        display: flex;
+        flex-direction: column;
+      }
+    
+    .pic-and-about-container{
+        display: flex;
+        flex-direction: row;
+        padding: 1em 20vw 3em 20vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+      .about-pic {
+        height: auto;
+        width: 15em;
+      }
+    
+      .pic-container {
+        grid-row: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1em;
+      }
+    
+      .about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+      }
+    
+      .about-bio {
+        font-size: 1em;
+        color: white;
+      }
+    
+      .about-about {
+        font-size: 2em;
+        color: rgb(181, 239, 255);
+        
+      }
+    
+      .experience-section {
+        padding: 0 20vw 0 20vw;
+      }
+    
+      .experience {
+        font-size: 2em;
+        color: rgb(181, 239, 255);
+      }
+    
+      .job-section {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2em;
+      }
+    
+      .job-company {
+        font-size: 1.3em;
+        margin: 0;
+        padding-left: 0.5em;
+      }
+    
+      .job-title {
+        font-size: 1em;
+      }
+    
+      .job-date {
+        font-size: 0.9em;
+        color: rgb(194, 194, 194);
+      }
+    
+      .job-description {
+        font-size: 0.9em;
+        color: rgb(210, 227, 234);
+      }
+    
+      .company-and-icon {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        padding-bottom: 0.5em;
+      }
+    
+      .company-icon {
+        width: 3vw;
+        height: auto;
+      }
+}

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+  .photography-container {
+    padding: 5vw;
+  }
+
+  .photography {
+    font-size: 2em;
+    color: rgb(181, 239, 255);
+    padding-bottom: 1em;
+  }
+
+  .photography-card {
+    background-color: #50577a;
+    width: 90vw;
+    border-radius: 1em;
+    margin-bottom: 2em;
+  }
+
+  .card-image {
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em 1em 0em 0em;
+  }
+
+  .card-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .photography-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0 25vw 0 25vw;
+}
+
+  .photography {
+    font-size: 2em;
+    color: rgb(181, 239, 255);
+    padding: 1em 25vw 0 25vw;
+  }
+
+  .photography-card {
+    background-color: #50577a;
+    width: 40vw;
+    border-radius: 1em;
+    margin-bottom: 2em;
+
+  }
+
+  .card-image {
+    width: 40vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em 1em 0em 0em;
+  }
+
+  .card-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}

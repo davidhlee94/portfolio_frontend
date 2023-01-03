@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px) {
+  .color-nav {
+    background-color: #6b728e;
+  }
+
+  .link-text {
+    color: rgb(210, 227, 234);
+  }
+
+  .brand-text {
+    color: white;
+  }
+
+  .brand-pic-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .color-nav {
+    background-color: #6b728e;
+  }
+
+  .link-text {
+    color: rgb(210, 227, 234);
+  }
+
+  .brand-text {
+    color: white;
+    padding-left: 0.5em;
+  }
+
+  .brand-pic-text {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    width: 20vw;
+  }
+
+  .right-aligned{
+    justify-content: flex-end;
+  }
+}
