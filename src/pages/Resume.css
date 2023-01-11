@@ -60,6 +60,8 @@
     border: 1px;
     box-shadow: none;
     height: 2em;
+    text-decoration: none;
+    color: black;
   }
   .iframe {
     width: 100%;
