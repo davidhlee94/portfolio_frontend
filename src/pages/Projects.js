@@ -33,7 +33,7 @@ function Projects(props) {
                     <button className="button">Github</button>
                   </a>
                   <a href={project.live}>
-                    <button className="button">Website</button>
+                    <button className="button">Live Site</button>
                   </a>
                 </div>
               </div>
@@ -41,7 +41,6 @@ function Projects(props) {
                 <h1 className="project-name">{project.name}</h1>
                 <p className="project-about">{project.about}</p>
                 <div className="technology">
-                  <h3 className="technology-used">Tech Used:</h3>
                   <img className="technology-badge" src={project.technology1} />
                   <img className="technology-badge" src={project.technology2} />
                   <img className="technology-badge" src={project.technology3} />
