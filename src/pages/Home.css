@@ -11,9 +11,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100vh;
-    background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center center
-      fixed;
-    -o-background-size: cover;
+    background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center;
     background-size: cover;
   }
 
