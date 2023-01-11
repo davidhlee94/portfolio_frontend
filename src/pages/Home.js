@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { useState, useEffect } from "react";
 
-function Home(props) {
+function Home() {
   const [about, setAbout] = useState(null);
 
   const getAboutData = async () => {
@@ -27,7 +27,11 @@ function Home(props) {
     </div>
   );
 
-  return about ? loaded() : <h1></h1>;
+  return (
+    <div>
+      <div>{about ? loaded() : <h1></h1>}</div>
+    </div>
+  );
 }
 
 export default Home;

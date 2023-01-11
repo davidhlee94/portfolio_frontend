@@ -1,14 +1,15 @@
 @media only screen and (max-width: 768px) {
   .color-nav {
-    background-color: #6b728e;
+    background-color: black;
   }
 
   .link-text {
-    color: rgb(210, 227, 234);
+    color: rgb(255, 255, 255);
   }
 
   .brand-text {
     color: white;
+    font-family: "Rock Salt", cursive;
   }
 
   .brand-pic-text {
@@ -23,28 +24,29 @@
   }
 }
 
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 769px) {
   .color-nav {
-    background-color: #6b728e;
+    background-color: black;
   }
 
   .link-text {
-    color: rgb(210, 227, 234);
+    color: rgb(255, 255, 255);
   }
 
   .brand-text {
     color: white;
     padding-left: 0.5em;
+    font-family: "Rock Salt", cursive;
+
   }
 
   .brand-pic-text {
     display: flex;
-    justify-content: ;
     align-items: center;
     width: 20vw;
   }
 
-  .right-aligned{
+  .right-aligned {
     justify-content: flex-end;
   }
 }

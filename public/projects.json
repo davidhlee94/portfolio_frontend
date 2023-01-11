@@ -1,16 +1,23 @@
 [
-    {
-      "name": "Homer's Casino Blackjack",
-      "live": "https://davidhlee94.github.io/blackjack/",
-      "git": "https://github.com/davidhlee94/blackjack",
-      "image": "https://i.imgur.com/28xCT3S.jpeg",
-      "about": "A Homer Simpson themed blackjack game built with HTML, CSS, and Javascript."
-    },
-    {
-      "name": "Pokémon Advantage Calculator",
-      "live": "https://davipi.netlify.app/",
-      "git": "https://github.com/Maripirs/pokemon-advantage-calculator",
-      "image": "https://i.imgur.com/mxM2KGy.png",
-      "about": "A Pokémon advantage calculator built with Javascript, CSS, and React. All data provided by the Pokémon RESTful API."
-    }
+  {
+    "name": "NiFT, the NFT Library",
+    "live": "https://nift-bld.netlify.app/",
+    "git": "https://github.com/davidhlee94/project3-frontend",
+    "image": "https://i.imgur.com/pNHjJFV.png",
+    "about": "A small clone of OpenSea.com built with a full MERN stack. Browse, create, and own unauthentic NFTs."
+  },
+  {
+    "name": "Pokémon Advantage Calculator",
+    "live": "https://davipi.netlify.app/",
+    "git": "https://github.com/Maripirs/pokemon-advantage-calculator",
+    "image": "https://i.imgur.com/mxM2KGy.png",
+    "about": "A Pokémon advantage calculator built with Javascript, CSS, and React. All data provided by the Pokémon RESTful API."
+  },
+  {
+    "name": "Homer's Casino Blackjack",
+    "live": "https://davidhlee94.github.io/blackjack/",
+    "git": "https://github.com/davidhlee94/blackjack",
+    "image": "https://i.imgur.com/28xCT3S.jpeg",
+    "about": "A Homer Simpson themed blackjack game built with HTML, CSS, and Javascript."
+  }
 ]

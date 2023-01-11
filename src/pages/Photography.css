@@ -4,16 +4,32 @@
   }
 
   .photography {
-    font-size: 2em;
-    color: rgb(181, 239, 255);
-    padding-bottom: 1em;
+    margin: 0;
+    color: #fff87c;
+    font-family: "Rock Salt", cursive;
+  }
+
+  .photography-title-container {
+    display: flex;
+    justify-content: center;
+  }
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .photography-card {
-    background-color: #50577a;
+    background-color: #4f8270;
     width: 90vw;
     border-radius: 1em;
     margin-bottom: 2em;
+    margin-top: 1em;
   }
 
   .card-image {
@@ -40,26 +56,45 @@
 
 @media only screen and (min-width: 769px) {
   .photography-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     padding: 0 25vw 0 25vw;
-}
+  }
+
+  .photography-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photography-card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .photography {
     font-size: 2em;
-    color: rgb(181, 239, 255);
+    color: #fff87c;
     padding: 1em 25vw 0 25vw;
+    font-family: "Rock Salt", cursive;
+  }
+
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .photography-card {
-    background-color: #50577a;
+    background-color: #4f8270;
     width: 40vw;
     border-radius: 1em;
     margin-bottom: 2em;
-
   }
 
   .card-image {

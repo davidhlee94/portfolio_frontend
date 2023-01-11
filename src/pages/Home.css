@@ -10,6 +10,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 100vh;
+    background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .home-name {
@@ -26,37 +33,44 @@
   .home-brief {
     text-align: center;
     width: 100vw;
-    color: rgb(210, 227, 234);
+    color: #fff87c;
   }
 }
 
-@media only screen and (min-width: 769px){
-    .home-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    
-      .home-name {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        padding-bottom: 0.5em;
-        font-family: "Rock Salt", cursive;
-        font-size: 5em;
-      }
-    
-      .home-brief {
-        text-align: center;
-        width: 100vw;
-        color: rgb(210, 227, 234);
-        font-size: 1.6em;
-      }
+@media only screen and (min-width: 769px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    background: url("https://i.imgur.com/uCuywl0.jpg") no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .home-name {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0.5em;
+    font-family: "Rock Salt", cursive;
+    font-size: 5em;
+  }
+
+  .home-brief {
+    text-align: center;
+    width: 100vw;
+    color: #fff87c;
+    font-size: 1.6em;
+  }
 }

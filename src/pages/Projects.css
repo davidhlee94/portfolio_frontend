@@ -6,8 +6,20 @@
   }
 
   .projects {
-    color: rgb(181, 239, 255);
+    color: #fff87c;
     margin: 0;
+    font-family: "Rock Salt", cursive;
+  }
+
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .project-all-container {
@@ -16,13 +28,18 @@
     align-items: center;
   }
 
+  .projects-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .project-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    background-color: #50577a;
+    background-color: #4f8270;
     border-radius: 1em;
     height: 27vh;
     width: 90vw;
@@ -47,7 +64,7 @@
   .project-name {
     display: flex;
     align-items: center;
-    color: rgb(181, 239, 255);
+    color: #fff87c;
     font-size: 3.7vw;
     margin: 0;
     width: 90%;
@@ -60,7 +77,6 @@
     height: 100%;
     font-size: 2.9vw;
     display: flex;
-
     align-items: center;
   }
 
@@ -83,11 +99,28 @@
     padding: 0 25vw 0 25vw;
   }
 
+  hr.rounded {
+    border-top: 5px solid #fff87c;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .projects {
-    color: rgb(181, 239, 255);
+    color: #fff87c;
     margin: 0;
     font-size: 2em;
     padding-top: 1em;
+    font-family: "Rock Salt", cursive;
   }
 
   .project-all-container {
@@ -102,7 +135,7 @@
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    background-color: #50577a;
+    background-color: #4f8270;
     border-radius: 1em;
     height: 18em;
     width: 35em;
@@ -127,16 +160,16 @@
   .project-name {
     display: flex;
     align-items: center;
-    color: rgb(181, 239, 255);
+    color: #fff87c;
     font-size: 1.3em;
     margin: 0;
-    width: 90%;
+    width: 100%;
   }
 
   .project-about {
     color: white;
     margin: 0;
-    width: 90%;
+    width: 100%;
     height: 100%;
     font-size: 0.9em;
     display: flex;

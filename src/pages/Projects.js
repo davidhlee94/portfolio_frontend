@@ -15,8 +15,13 @@ function Projects(props) {
   }, []);
 
   return (
-    <section className="projects-all">
-      <h1 className="projects">Projects</h1>
+    <div className="projects-all">
+      <div className="projects-title-container">
+        <h1 className="projects">Projects</h1>
+      </div>
+      <div className="divider">
+        <hr class="rounded" />
+      </div>
       <div className="project-all-container">
         {projects.map((project) => {
           return (
@@ -38,7 +43,7 @@ function Projects(props) {
           );
         })}
       </div>
-    </section>
+    </div>
   );
 }
 

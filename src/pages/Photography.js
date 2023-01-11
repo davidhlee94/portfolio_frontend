@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 
 const Photography = () => {
   return (
-    <div>
-      <h1 className="photography">Photography</h1>
-      <div className="photography-container">
+    <div className="photography-container">
+      <div className="photography-title-container">
+        <h1 className="photography">Photography</h1>
+      </div>
+      <div className="divider">
+        <hr class="rounded" />
+      </div>
+      <div className="photography-card-container">
         <div className="photography-card">
-          <div className="portrait-photography">
-            <Link to="/photography/portrait">
-              <img
-                className="card-image"
-                src="../photography/portraits/2.JPG"
-              />
-              <h2 className="card-text">Portrait</h2>
-            </Link>
-          </div>
+          <Link to="/photography/portrait">
+            <img className="card-image" src="../photography/portraits/4.JPG" />
+            <h2 className="card-text">Portrait</h2>
+          </Link>
         </div>
         <div className="photography-card">
           <Link to="/photography/personal">
             <div className="street-photography">
-              <img className="card-image" src="../photography/personal/1.JPG" />
+              <img className="card-image" src="../photography/personal/8.JPG" />
               <h2 className="card-text">Personal</h2>
             </div>
           </Link>
