@@ -28,11 +28,16 @@
     justify-content: center;
   }
 
+  .resume-instruction-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .resume-instruction {
     font-size: 1em;
     color: white;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    text-align: center;
   }
 
   .megaman {
@@ -85,7 +90,10 @@
     display: flex;
     justify-content: center;
   }
-
+  .resume-instruction-container {
+    display: flex;
+    justify-content: center;
+  }
   .resume {
     font-size: 2em;
     color: #fff87c;
@@ -99,6 +107,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
   }
 
   .download-row {

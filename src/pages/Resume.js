@@ -10,9 +10,11 @@ const Resume = () => {
       <div className="divider">
         <hr class="rounded" />
       </div>
-      <h3 className="resume-instruction">
-        View my resume below or click button below to download!
-      </h3>
+      <div className="resume-instruction-container">
+        <h3 className="resume-instruction">
+          View my resume below or click button below to download!
+        </h3>
+      </div>
       <div className="download-row">
         <a href="DavidLee_Resume.pdf" download="DavidLee_Resume.pdf">
           <button className="download-button">Download</button>
