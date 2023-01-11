@@ -9,12 +9,12 @@
 
   .brand-text {
     color: white;
-    font-family: "Rock Salt", cursive;
-  }
+    font-family: 'Righteous', cursive;
+    margin-left: 0.5em;
+}
 
   .brand-pic-text {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 20vw;
   }
@@ -36,8 +36,7 @@
   .brand-text {
     color: white;
     padding-left: 0.5em;
-    font-family: "Rock Salt", cursive;
-
+    font-family: 'Righteous', cursive;
   }
 
   .brand-pic-text {

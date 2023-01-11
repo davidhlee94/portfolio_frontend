@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <div className="resume-title-container">
-        <h1 className="resume">Resume</h1>
+        <h1 className="resume">RESUME</h1>
       </div>
       <div className="divider">
         <hr class="rounded" />
@@ -17,7 +17,7 @@ const Resume = () => {
       </div>
       <div className="download-row">
         <a href="DavidLee_Resume.pdf" download="DavidLee_Resume.pdf">
-          <button className="download-button">Download</button>
+          <button className="download-button">DOWNLOAD</button>
         </a>
       </div>
       <iframe

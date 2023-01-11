@@ -6,7 +6,7 @@ const Photography = () => {
   return (
     <div className="photography-container">
       <div className="photography-title-container">
-        <h1 className="photography">Photography</h1>
+        <h1 className="photography">PHOTOGRAPHY</h1>
       </div>
       <div className="divider">
         <hr class="rounded" />

@@ -30,7 +30,7 @@ function About() {
           <img className="about-pic" src={about.pic} />
         </div>
         <div className="about-section">
-          <h2 className="about-about">About</h2>
+          <h2 className="about-about">ABOUT</h2>
           <p className="about-bio">{about.bio}</p>
         </div>
       </div>
@@ -38,7 +38,7 @@ function About() {
         <hr class="rounded" />
       </div>
       <div className="education-section">
-        <h3 className="education">Education</h3>
+        <h3 className="education">EDUCATION</h3>
         <div className="school-section">
           <div className="school-icon-name">
             <img
@@ -83,7 +83,7 @@ function About() {
         <hr class="rounded" />
       </div>
       <div className="experience-section">
-        <h2 className="experience">Experience</h2>
+        <h2 className="experience">EXPERIENCE</h2>
         {job.map((job) => {
           return (
             <div className="job-section">

@@ -17,7 +17,7 @@ function Projects(props) {
   return (
     <div className="projects-all">
       <div className="projects-title-container">
-        <h1 className="projects">Projects</h1>
+        <h1 className="projects">PROJECTS</h1>
       </div>
       <div className="divider">
         <hr class="rounded" />

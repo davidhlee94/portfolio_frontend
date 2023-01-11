@@ -7,7 +7,6 @@
 }
 
 .app-container {
-  height: 100%;
   overflow: auto;
   background-color: #3c6255;
 }
