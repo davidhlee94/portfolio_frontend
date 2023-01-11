@@ -9,7 +9,7 @@
   .projects {
     color: #fff87c;
     margin: 0;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
   }
 
   hr.rounded {
@@ -95,6 +95,27 @@
     text-decoration: none;
     color: black;
   }
+  .technology {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .technology-used {
+    display: flex;
+    align-items: center;
+    color: #fff87c;
+    font-size: 0.7em;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+  }
+
+  .technology-badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 1.2em;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -124,7 +145,7 @@
     margin: 0;
     font-size: 2em;
     padding-top: 1em;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
   }
 
   .project-all-container {
@@ -152,7 +173,7 @@
     justify-content: space-around;
     width: 50%;
     flex-direction: column;
-    height: 18vh;
+    height: 19vh;
   }
 
   .project-image {
@@ -165,7 +186,7 @@
     display: flex;
     align-items: center;
     color: #fff87c;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
     width: 100%;
   }
@@ -177,7 +198,6 @@
     height: 100%;
     font-size: 0.9em;
     display: flex;
-
     align-items: center;
   }
 
@@ -192,5 +212,27 @@
     box-shadow: none;
     font-size: 1em;
     margin-right: 1em;
+  }
+  .technology {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+  }
+
+  .technology-used {
+    display: flex;
+    align-items: center;
+    color: #fff87c;
+    font-size: 0.9em;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.3em;
+    margin-bottom: 0.3;
+  }
+
+  .technology-badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 1.55em;
   }
 }

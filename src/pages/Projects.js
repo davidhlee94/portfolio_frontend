@@ -30,6 +30,14 @@ function Projects(props) {
               <div className="project-info">
                 <h1 className="project-name">{project.name}</h1>
                 <p className="project-about">{project.about}</p>
+                <div className="technology">
+                  <h3 className="technology-used">Tech Used:</h3>
+                  <img className="technology-badge" src={project.technology1} />
+                  <img className="technology-badge" src={project.technology2} />
+                  <img className="technology-badge" src={project.technology3} />
+                  <img className="technology-badge" src={project.technology4} />
+                  <img className="technology-badge" src={project.technology5} />
+                </div>
                 <div className="button-container">
                   <a href={project.git}>
                     <button className="button">Github</button>

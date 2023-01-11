@@ -9,7 +9,7 @@
   .resume {
     font-size: 2em;
     color: #fff87c;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
   }
 
   hr.rounded {
@@ -56,7 +56,7 @@
 
   .download-button {
     border-radius: 5px;
-    background: rgb(181, 239, 255);
+    background: #fff87c;
     border: 1px;
     box-shadow: none;
     height: 2em;
@@ -99,7 +99,7 @@
     font-size: 2em;
     color: #fff87c;
     padding-top: 1em;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
   }
 
   .resume-instruction {

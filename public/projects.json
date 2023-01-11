@@ -4,20 +4,31 @@
     "live": "https://nift-bld.netlify.app/",
     "git": "https://github.com/davidhlee94/project3-frontend",
     "image": "https://i.imgur.com/pNHjJFV.png",
-    "about": "A small clone of OpenSea.com built with a full MERN stack. Browse, create, and own unauthentic NFTs."
+    "about": "A small clone of OpenSea.com built with a full MERN stack. Browse, create, and own unauthentic NFTs.",
+    "technology1": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+    "technology2": "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+    "technology3": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+    "technology4": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+    "technology5": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
   },
   {
     "name": "Pokémon Advantage Calculator",
     "live": "https://davipi.netlify.app/",
     "git": "https://github.com/Maripirs/pokemon-advantage-calculator",
     "image": "https://i.imgur.com/mxM2KGy.png",
-    "about": "A Pokémon advantage calculator built with Javascript, CSS, and React. All data provided by the Pokémon RESTful API."
+    "about": "An application that compares 2 Pokemon and calculates an advantage based on battle type.",
+    "technology1": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "technology2": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+    "technology3": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
   },
   {
     "name": "Homer's Casino Blackjack",
     "live": "https://davidhlee94.github.io/blackjack/",
     "git": "https://github.com/davidhlee94/blackjack",
     "image": "https://i.imgur.com/28xCT3S.jpeg",
-    "about": "A Homer Simpson themed blackjack game built with HTML, CSS, and Javascript."
+    "about": "A Homer Simpson themed blackjack game built with Vanilla Javascript.",
+    "technology1": "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+    "technology2": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "technology3": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
   }
 ]
