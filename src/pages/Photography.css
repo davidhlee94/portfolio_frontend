@@ -1,14 +1,15 @@
 @media only screen and (max-width: 768px) {
+  /* MAIN CONTAINER */
   .photography-container {
     padding: 5vw;
   }
 
+  /* PHOTOGRAPHY TITLE AND DIVIDER */
   .photography {
     margin: 0;
     color: #fff87c;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
   }
-
   .photography-title-container {
     display: flex;
     justify-content: center;
@@ -24,6 +25,7 @@
     align-items: center;
   }
 
+  /* PHOTOGRAPHY CARDS */
   .photography-card {
     background-color: #4f8270;
     width: 90vw;
@@ -55,27 +57,21 @@
 }
 
 @media only screen and (min-width: 769px) {
+  /* MAIN CONTAINER */
   .photography-container {
     padding: 0 25vw 0 25vw;
   }
 
+  /* PHOTOGRAPHY TITLE AND DIVIDER */
   .photography-title-container {
     display: flex;
     justify-content: center;
   }
-
-  .photography-card-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .photography {
     font-size: 2em;
     color: #fff87c;
     padding: 1em 25vw 0 25vw;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
   }
 
   hr.rounded {
@@ -87,6 +83,14 @@
   .divider {
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+  /* PHOTOGRAPHY CARDS */
+  .photography-card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
 

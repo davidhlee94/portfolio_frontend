@@ -1,10 +1,12 @@
 @media only screen and (max-width: 768px) {
+  /* MAIN CONTAINER */
   .about-container {
     display: flex;
     flex-direction: column;
     padding: 5vw;
   }
 
+  /* ABOUT CARD */
   .about-pic {
     height: auto;
     width: 60vw;
@@ -38,15 +40,16 @@
   .about-about {
     font-size: 2em;
     color: #fff87c;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
     margin-bottom: 0.5em;
   }
 
+  /* EXPERIENCE AND EDUCATION CARDS */
   .experience,
   .education {
     font-size: 2em;
     color: #fff87c;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
     margin-bottom: 0.5em;
   }
 
@@ -98,12 +101,14 @@
 }
 
 @media only screen and (min-width: 769px) {
+  /* MAIN CONTAINER */
   .about-container {
     display: flex;
     flex-direction: column;
     padding: 1em 20vw 3em 20vw;
   }
 
+  /* ABOUT CARD */
   .pic-and-about-container {
     display: flex;
     flex-direction: row;
@@ -140,7 +145,7 @@
   .about-about {
     font-size: 2em;
     color: #fff87c;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
     margin-bottom: 0.5em;
   }
 
@@ -155,11 +160,12 @@
     align-items: center;
   }
 
+  /* EXPERIENCE AND EDUCATION CARDS */
   .experience,
   .education {
     font-size: 2em;
     color: #fff87c;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
     margin-bottom: 0.5em;
   }
 

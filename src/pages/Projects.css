@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 
 @media only screen and (max-width: 768px) {
+  /* MAIN CONTAINER */
   .projects-all {
     padding: 5vw;
     height: 100vh;
   }
 
+  /* PROJECTS TITLE AND DIVIDER */
   .projects {
     color: #fff87c;
     margin: 0;
@@ -23,6 +25,7 @@
     align-items: center;
   }
 
+  /* PROJECT CARDS */
   .project-all-container {
     display: flex;
     flex-direction: column;
@@ -121,11 +124,20 @@
 }
 
 @media only screen and (min-width: 769px) {
+  /* MAIN CONTAINER */
   .projects-all {
     padding: 0 25vw 0 25vw;
     height: 100vh;
   }
 
+  /* PROJECTS TITLE AND DIVIDER */
+  .projects {
+    color: #fff87c;
+    margin: 0;
+    font-size: 2em;
+    padding-top: 1em;
+    font-family: "Righteous", cursive;
+  }
   hr.rounded {
     border-top: 5px solid #fff87c;
     border-radius: 5px;
@@ -137,17 +149,10 @@
     align-items: center;
   }
 
+  /* PROJECT CARDS */
   .projects-title-container {
     display: flex;
     justify-content: center;
-  }
-
-  .projects {
-    color: #fff87c;
-    margin: 0;
-    font-size: 2em;
-    padding-top: 1em;
-    font-family: "Righteous", cursive;
   }
 
   .project-all-container {
