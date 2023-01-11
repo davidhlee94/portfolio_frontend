@@ -16,7 +16,7 @@
     "live": "https://davipi.netlify.app/",
     "git": "https://github.com/Maripirs/pokemon-advantage-calculator",
     "image": "https://i.imgur.com/mxM2KGy.png",
-    "about": "An application that compares 2 Pokemon and calculates an advantage based on battle type.",
+    "about": "An application that compares 2 Pokémon and calculates an advantage based on battle type. PokéDex library included.",
     "technology1": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
     "technology2": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
     "technology3": "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"

@@ -26,7 +26,17 @@ function Projects(props) {
         {projects.map((project) => {
           return (
             <div className="project-container">
-              <img className="project-image" src={project.image} />
+              <div className="project-image-button">
+                <img className="project-image" src={project.image} />
+                <div className="button-container">
+                  <a href={project.git}>
+                    <button className="button">Github</button>
+                  </a>
+                  <a href={project.live}>
+                    <button className="button">Website</button>
+                  </a>
+                </div>
+              </div>
               <div className="project-info">
                 <h1 className="project-name">{project.name}</h1>
                 <p className="project-about">{project.about}</p>
@@ -37,14 +47,6 @@ function Projects(props) {
                   <img className="technology-badge" src={project.technology3} />
                   <img className="technology-badge" src={project.technology4} />
                   <img className="technology-badge" src={project.technology5} />
-                </div>
-                <div className="button-container">
-                  <a href={project.git}>
-                    <button className="button">Github</button>
-                  </a>
-                  <a href={project.live}>
-                    <button className="button">Website</button>
-                  </a>
                 </div>
               </div>
             </div>

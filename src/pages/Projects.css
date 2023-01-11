@@ -42,7 +42,7 @@
     align-items: center;
     background-color: #4f8270;
     border-radius: 1em;
-    height: 27vh;
+    height: 29vh;
     width: 90vw;
     margin-top: 1em;
     padding: 1vw;
@@ -51,8 +51,8 @@
   .project-info {
     display: flex;
     justify-content: space-around;
-    width: 50%;
     flex-direction: column;
+    width: 50%;
     height: 18vh;
   }
 
@@ -84,6 +84,8 @@
   .button-container {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.4em;
   }
 
   .button {
@@ -91,9 +93,9 @@
     border: 1px;
     box-shadow: none;
     font-size: 3vw;
-    margin-right: 1em;
     text-decoration: none;
     color: black;
+    width: 5em;
   }
   .technology {
     display: flex;
@@ -107,8 +109,8 @@
     font-size: 0.7em;
     width: 100%;
     font-family: "Montserrat", sans-serif;
-    margin-top: 0.3em;
-    margin-bottom: 0;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
   }
 
   .technology-badge {
@@ -204,15 +206,17 @@
   .button-container {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.4em;
   }
 
   .button {
     border-radius: 5px;
     border: 1px;
     box-shadow: none;
-    font-size: 1em;
-    margin-right: 1em;
+    font-size: 0.9em;
   }
+
   .technology {
     display: flex;
     flex-wrap: wrap;
