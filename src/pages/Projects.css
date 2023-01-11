@@ -92,6 +92,8 @@
     box-shadow: none;
     font-size: 3vw;
     margin-right: 1em;
+    text-decoration: none;
+    color: black;
   }
 }
 
@@ -190,7 +192,5 @@
     box-shadow: none;
     font-size: 1em;
     margin-right: 1em;
-    text-decoration: none;
-    color: black;
   }
 }
