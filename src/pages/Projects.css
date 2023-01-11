@@ -3,6 +3,7 @@
 @media only screen and (max-width: 768px) {
   .projects-all {
     padding: 5vw;
+    height: 100vh;
   }
 
   .projects {
@@ -97,6 +98,7 @@
 @media only screen and (min-width: 769px) {
   .projects-all {
     padding: 0 25vw 0 25vw;
+    height: 100vh;
   }
 
   hr.rounded {

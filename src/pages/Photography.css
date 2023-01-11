@@ -57,6 +57,7 @@
 @media only screen and (min-width: 769px) {
   .photography-container {
     padding: 0 25vw 0 25vw;
+    height: 100vh;
   }
 
   .photography-title-container {
