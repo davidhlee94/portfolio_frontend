@@ -1,6 +1,19 @@
-.footer-container{
-    display: flex;
-    justify-content: center;
-    background: black;
-    color: white;
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #3c6255;
+  color: white;
+  height: 100%;
+}
+
+.icon {
+  height: 2em;
+  padding: 0 1em 0 1em;
+}
+
+.name {
+  margin-top: 0.5em;
+  color: #fff87c;
 }
