@@ -9,6 +9,7 @@ import Photography from "./pages/Photography";
 import Portrait from "./pages/Portrait";
 import Personal from "./pages/Personal";
 import Sport from "./pages/Sport";
+import Footer from "./components/Footer";
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend (will build later), make sure you include the trailing slash
@@ -24,11 +25,12 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} />
           <Route path="/photography" element={<Photography />} />
-          <Route path="/photography/portrait" element={<Portrait/>}/>
-          <Route path="/photography/personal" element={<Personal/>}/>
-          <Route path="/photography/sport" element={<Sport />}/>
+          <Route path="/photography/portrait" element={<Portrait />} />
+          <Route path="/photography/personal" element={<Personal />} />
+          <Route path="/photography/sport" element={<Sport />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

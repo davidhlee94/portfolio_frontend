@@ -1,10 +1,12 @@
-function Footer() {
+import "./Footer.css";
+import React from "react";
 
+function Footer() {
   return (
-  <div className="footer-container">
-    <h1>This is a Footer</h1>
-  </div>
-  )
+    <div className="footer-container">
+      <img src="%PUBLIC_URL%/linkedin.png" />
+    </div>
+  );
 }
 
 export default Footer;

@@ -4,7 +4,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 
-function Header(props) {
+function Header() {
   const [expanded, setExpanded] = useState(false);
 
   return (
