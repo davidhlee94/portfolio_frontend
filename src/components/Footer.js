@@ -16,7 +16,7 @@ function Footer() {
         </a>
       </div>
       <div>
-        <h6 className="name">©DAVID LEE</h6>
+        <h6 className="name">© 2023 DAVID LEE</h6>
       </div>
     </div>
   );
