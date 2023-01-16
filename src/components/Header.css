@@ -9,9 +9,9 @@
 
   .brand-text {
     color: white;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
     margin-left: 0.5em;
-}
+  }
 
   .brand-pic-text {
     display: flex;
@@ -36,7 +36,7 @@
   .brand-text {
     color: white;
     padding-left: 0.5em;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
   }
 
   .brand-pic-text {
@@ -48,4 +48,6 @@
   .right-aligned {
     justify-content: flex-end;
   }
+
+
 }

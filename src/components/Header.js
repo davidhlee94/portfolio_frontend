@@ -33,7 +33,7 @@ function Header() {
               <Nav.Link
                 as={Link}
                 to="/"
-                className="text-decoration-none"
+                className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
               >
                 <div className="col text-center link-text">Home</div>
@@ -41,7 +41,7 @@ function Header() {
               <Nav.Link
                 as={Link}
                 to="/about"
-                className="text-decoration-none"
+                className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
               >
                 <div className="col text-center link-text">About</div>
@@ -49,7 +49,7 @@ function Header() {
               <Nav.Link
                 as={Link}
                 to="/resume"
-                className="text-decoration-none"
+                className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
               >
                 <div className="col text-center link-text">Resume</div>
@@ -57,7 +57,7 @@ function Header() {
               <Nav.Link
                 as={Link}
                 to="/projects"
-                className="text-decoration-none"
+                className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
               >
                 <div className="col text-center link-text">Projects</div>
@@ -65,7 +65,7 @@ function Header() {
               <Nav.Link
                 as={Link}
                 to="/photography"
-                className="text-decoration-none"
+                className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
               >
                 <div className="col text-center link-text">Photography</div>
