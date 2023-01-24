@@ -4,7 +4,6 @@ import "./About.css";
 function About() {
   const [about, setAbout] = useState(null);
   const [job, setJob] = useState(null);
-  const [education, setEducation] = useState(null);
 
   const getJobData = async () => {
     const response = await fetch("./jobs.json");
