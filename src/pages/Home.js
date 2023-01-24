@@ -19,7 +19,7 @@ function Home() {
     <div className="home-container">
       <h1 className="home-name">{about.name}</h1>
       <div className="home-brief">
-        <p>Full Stack Web Developer</p>
+        <p>Full Stack Developer</p>
         <p>Marketer & Project Manager</p>
         <p>Brazilian Jiu-jitsu student</p>
         <p>Photographer</p>
