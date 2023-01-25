@@ -29,14 +29,14 @@ function Header() {
             onClick={() => setExpanded(expanded ? false : "expanded")}
           />
           <Navbar.Collapse className="responsive-navbar-nav right-aligned">
-            <Nav className="nav">
+            <Nav className="nav brackets">
               <Nav.Link
                 as={Link}
                 to="/"
                 className="text-decoration-none navlinks"
                 onClick={() => setExpanded(false)}
               >
-                <div className="col text-center link-text">Home</div>
+                <div className="col text-center link-text ">Home</div>
               </Nav.Link>
               <Nav.Link
                 as={Link}
